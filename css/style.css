@@ -71,7 +71,24 @@ input{
 	height: 40px;
 	border: 2px solid #e5e5e5;
 	border-radius: 5px;
+	padding-left: 10px;
 }
+
+/*****************************************************Content***************************************************/
+.container{
+	margin: 0 auto;
+	width: 90%;
+}
+
+.image-module{
+	width: 200px;
+	height: 200px;
+}
+
+
+
+
+
 /*****************************************************Media Queries*********************************************/
 
 /*Desktop*/
@@ -82,5 +99,11 @@ input{
 	}
 	input{
 		width: 460px;
+	}
+	.container{
+		width: 980px;
+	}
+	.image-module{
+		margin-right: 60px;
 	}
 }/*end of desktop*/
