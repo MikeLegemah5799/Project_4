@@ -105,5 +105,9 @@ input{
 	}
 	.image-module{
 		margin-right: 60px;
+		float: left;
+	}
+	.image-module:nth-child(4n+4){
+		margin-right: 0;
 	}
 }/*end of desktop*/
