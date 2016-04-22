@@ -86,7 +86,9 @@ input{
 	margin: 0 auto 60px auto;
 }
 
-
+html{
+	font-family: helvetica;
+}
 
 
 
