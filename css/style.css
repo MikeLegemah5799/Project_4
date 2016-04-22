@@ -83,7 +83,7 @@ input{
 .image-module{
 	width: 200px;
 	height: 200px;
-	margin-bottom: 60px;
+	margin: 0 auto 60px auto;
 }
 
 
