@@ -97,6 +97,14 @@ html{
 	border-radius: 0 !important;
 }
 
+.lightbox .lb-image{
+	border-radius: 0 !important;
+}
+
+.lb-data .lb-close{
+	display: none !important
+}
+
 /*****************************************************Media Queries*********************************************/
 
 /*Desktop*/
