@@ -12,7 +12,7 @@
         <div id="gallery-list">
             <header>
                 <form>
-                    <input class="search" placeholder="Search">
+                    <input class="search" placeholder="Search" data-sort="image-module">
                 </form>
             </header>
             <div class="container">
@@ -34,15 +34,18 @@
                 <div class="image-module">
                     <a href="img/04.jpg" data-lightbox="gallery"  data-title="Iceberg <br>
     It was amazing to see an iceberg up close, it was so cold but didn’t snow today."><img src="img/thumbnails/04.jpg"></a>
+                    <p class="title">Iceberg</p>
                 </div><!--end of image module-->
                 <div class="image-module">
                     <a href="img/05.jpg" data-lightbox="gallery" data-title="Desert <br>
     The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.
     "><img src="img/thumbnails/05.jpg"></a>
+                <p class="title">Desert</p>
                 </div><!--end of image module-->
                 <div class="image-module">
                     <a href="img/06.jpg" data-lightbox="gallery" data-title="Fall <br>
     Fall is coming, I love when the leaves on the trees start to change color."><img src="img/thumbnails/06.jpg"></a>
+                <p class="title">Fall</p>
                 </div><!--end of image module-->
                 <div class="image-module">
                     <a href="img/07.jpg" data-lightbox="gallery" data-title="Plantation <br>
@@ -81,10 +84,10 @@
                 'positionFromTop': 100
             })
         </script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.2.0/list.min.js"></script>
+        <script src="js/list.js"></script>
         <script>
             var options ={
-                valuePics: ['title']
+                valuePics: ['image-module','title']
             };
 
             var userList = new List('gallery-list', options);
