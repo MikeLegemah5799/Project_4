@@ -89,7 +89,9 @@ input{
 html{
 	font-family: helvetica;
 }
-
+.title{
+	color: transparent;
+}
 /******************************************************Lightbox Styles*******************************************/
 
 .lb-outerContainer{
