@@ -93,8 +93,8 @@ html{
 /******************************************************Lightbox Styles*******************************************/
 
 .lb-outerContainer{
-	background-color: transparent;
-	border-radius: 0;
+	background-color: transparent !important;
+	border-radius: 0 !important;
 }
 
 /*****************************************************Media Queries*********************************************/
