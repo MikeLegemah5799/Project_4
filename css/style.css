@@ -107,6 +107,8 @@ html{
 
 .lb-nav a.lb-prev{
 	opacity: 1 !important;
+	position: relative;
+	left: -145px !important;
 }
 
 /*****************************************************Media Queries*********************************************/
