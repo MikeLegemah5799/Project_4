@@ -105,6 +105,10 @@ html{
 	display: none !important
 }
 
+.lb-nav a.lb-prev{
+	opacity: 1 !important;
+}
+
 /*****************************************************Media Queries*********************************************/
 
 /*Desktop*/
