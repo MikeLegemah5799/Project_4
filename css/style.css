@@ -111,6 +111,23 @@ html{
 	left: -145px !important;
 }
 
+.lb-nav a.lb-next{
+	opacity: 1 !important;
+	position: relative;
+	right: -145px !important;
+}
+
+
+.lb-data .lb-details{
+	line-height: 1.5em !important;
+	max-width: 600px !important;
+	margin: 50px 0 0 100px;
+}
+
+.lb-data .lb-caption{
+	font-weight: normal !important;
+	font-size: 14px !important;
+}
 /*****************************************************Media Queries*********************************************/
 
 /*Desktop*/
