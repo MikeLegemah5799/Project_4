@@ -90,7 +90,12 @@ html{
 	font-family: helvetica;
 }
 
+/******************************************************Lightbox Styles*******************************************/
 
+.lb-outerContainer{
+	background-color: transparent;
+	border-radius: 0;
+}
 
 /*****************************************************Media Queries*********************************************/
 
